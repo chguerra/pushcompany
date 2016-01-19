@@ -1,0 +1,117 @@
+.imagenPortada{
+	width: 50%;
+	height: 50%;
+	margin: 0 auto;
+}
+
+.imagenPortada img{
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.maincontainer {
+
+}
+
+.nav-tabs > li, .nav-pills > li {
+    float:none!important;
+    display:inline-block!important;
+     width: auto;
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+.mod{
+    float:none!important;
+    display:block!important;
+    text-align:center;
+    color: #5f5f5f!important;
+}
+
+.mod:hover{
+	border-style: solid;
+	border-bottom: 5px solid #ff4d06;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	text-decoration: none;
+	padding-bottom: 6px;
+}
+
+.model{
+	width: 20%;
+	margin: 0 auto;
+	display: block;
+}
+
+.selected{
+	border-style: solid;
+	border-bottom: 5px solid #ff4d06;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	text-decoration: none;
+	padding-bottom: 6px;
+}
+
+.formulario{
+	height: 100%;
+	width: 100%;
+	margin-top: 15px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+#top{
+	height: 40%;
+}
+
+#mid{
+	height: 10%;
+}
+
+.innerForm {
+	width: 25%;
+	margin: 0 auto;
+}
+
+.secondaryFields{
+	width: 60%;
+	margin: 0 auto;
+}
+
+@font-face {
+  font-family: 'BradleyHandITC';
+  src: url('BradleyHandITC.eot?#iefix') format('embedded-opentype'),  url('BradleyHandITC.woff') format('woff'), url('BradleyHandITC.ttf')  format('truetype'), url('BradleyHandITC.svg#BradleyHandITC') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+	font-family: 'BradleyHandITC';
+	font-size: 26px;
+}
+
+.form-control::-webkit-input-placeholder {
+	font-family: 'BradleyHandITC';
+	font-size: 16px;
+	font-weight: bold;
+}
+
+input[type="text"]
+{
+	font-family: 'BreadleyHandITC';
+    font-size:16px;
+}
+
+.message {
+	font-family: 'BradleyHandITC';
+	font-size: 16px;
+}
+
+#partner{
+	width: 110px;
+}
